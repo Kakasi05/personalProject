@@ -1,0 +1,39 @@
+body {
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    background-color: white;
+    padding: 50px;
+    border-radius:5px;
+    text-align: center;
+    box-shadow: 100px 100px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color:blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#resultMessage {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
